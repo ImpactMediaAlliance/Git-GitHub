@@ -1,1 +1,7 @@
-git push origin masterImpact
+GitHub repository
+List your existing remotes in order to get the name of the remote you want to change.
+$ git remote -v
+> origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+> origin  git@github.com:USERNAME/REPOSITORY.git (push)
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+$ git push origin master
